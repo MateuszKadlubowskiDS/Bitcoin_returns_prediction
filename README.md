@@ -104,11 +104,40 @@ The results support the **weak form of market efficiency**:
 * Macroeconomic variables have **limited short-term impact**
 
 ---
+
+## Project Structure
+
+src/
+
+* data_extraction.py → data download and preprocessing
+* data_exploration.py → exploratory data analysis
+* arima_baseline.py → ARIMA model
+* lstm_baseline.py → LSTM baseline
+* lstm_technical_indicators.py → LSTM with technical features
+* lstm_macro_features.py → LSTM with macro variables
+
+data/
+
+* btc_usd_daily.csv → main dataset
+* macro_daily.csv → macroeconomic variables
+* btc_crypto_features.csv → additional crypto features
+
+---
+
+## Pipeline
+
+1. Data extraction and preprocessing
+2. Feature engineering (technical indicators, macro variables)
+3. Model training (ARIMA, LSTM)
+4. Evaluation on test set
+
+---
+
 ## Notes
 
 * This repository contains a **simplified version** of the full thesis
 * Additional models and experiments are not included
-* Data stored in repository is cleaned and prepared by me
+* Data stored in repository is cleaned and prepared by the author
 
 ---
 
