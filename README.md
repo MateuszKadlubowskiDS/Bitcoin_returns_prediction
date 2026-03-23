@@ -104,31 +104,11 @@ The results support the **weak form of market efficiency**:
 * Macroeconomic variables have **limited short-term impact**
 
 ---
-
-## Repository Structure
-
-```text
-src/
-    data_extraction.py
-    data_exploration.py
-
-    arima_baseline.py
-
-    lstm_baseline.py
-    lstm_technical_features.py
-    lstm_macro_features.py
-
-thesis/
-    master_thesis.pdf
-```
-
----
-
 ## Notes
 
 * This repository contains a **simplified version** of the full thesis
 * Additional models and experiments are not included
-* Data is not stored in the repository – it can be downloaded via scripts
+* Data stored in repository is cleaned and prepared by me
 
 ---
 
